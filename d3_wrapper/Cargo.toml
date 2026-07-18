@@ -1,0 +1,15 @@
+[package]
+name = "d3_wrapper"
+version = "0.1.0"
+edition = "2024"
+description = "Type-safe Rust bindings to d3.js for Dioxus applications"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+dioxus = { workspace = true }
+dioxus-use-js = { workspace = true }
+manganis = "0.7"
+tracing = "0.1"
+
+[lib]
+path = "src/lib.rs"

@@ -1,0 +1,7 @@
+[workspace]
+members = ["d3_wrapper", "example"]
+resolver = "2"
+
+[workspace.dependencies]
+dioxus = "0.7"
+dioxus-use-js = "0.4"
